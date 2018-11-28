@@ -9,7 +9,9 @@ import org.junit.Test;
 public class JsonTest {
     private static final String  jsontest = "{\"teacherName\":\"crystall\",\"teacherAge\":27,\"course\":{\"courseName\":\"english\",\"code\":1270},\"students\":[{\"studentName\":\"lily\",\"studentAge\":12},{\"studentName\":\"lucy\",\"studentAge\":15}]}";
 
-    //计算学生的年龄
+    /**
+     * 计算学生的年龄
+     */
     @Test
     public void testComplexJSONStrToJSONObject(){
         int sum=0;
@@ -22,14 +24,18 @@ public class JsonTest {
         System.out.print(sum);
     }
 
-    //去掉字符串的反斜杠
+    /**
+     * 去掉字符串的反斜杠
+     */
     @Test
     public void test1(){
         JSONObject jsonObject=JSON.parseObject(jsontest);
         System.out.print(JSON.toJSONString(jsonObject,SerializerFeature.PrettyFormat));
     }
-    //ceshi
-    //去掉字符串的反斜杠，key使用单引号
+
+    /**
+     * 去掉字符串的反斜杠，key使用单引号
+     */
     @Test
     public void test2(){
         JSONObject jsonObject=JSON.parseObject(jsontest);
