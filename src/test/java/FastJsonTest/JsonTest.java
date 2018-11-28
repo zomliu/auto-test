@@ -28,6 +28,7 @@ public class JsonTest {
         JSONObject jsonObject=JSON.parseObject(jsontest);
         System.out.print(JSON.toJSONString(jsonObject,SerializerFeature.PrettyFormat));
     }
+    //ceshi
     //去掉字符串的反斜杠，key使用单引号
     @Test
     public void test2(){
