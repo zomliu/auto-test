@@ -8,8 +8,9 @@ import org.junit.Test;
 
 public class JsonTest {
     private static final String  jsontest = "{\"teacherName\":\"crystall\",\"teacherAge\":27,\"course\":{\"courseName\":\"english\",\"code\":1270},\"students\":[{\"studentName\":\"lily\",\"studentAge\":12},{\"studentName\":\"lucy\",\"studentAge\":15}]}";
-    @Test
+
     //计算学生的年龄
+    @Test
     public void testComplexJSONStrToJSONObject(){
         int sum=0;
         JSONObject jsonObject= JSON.parseObject(jsontest);
