@@ -11,7 +11,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.LinkedHashMap;
 
-public class FindSignTest {
+public class FundSignTest1 {
     public static String signWithMD5(String jsonString,String secret){
 
         try {
