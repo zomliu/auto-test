@@ -18,11 +18,13 @@ public class SignTest {
         treeMap.entrySet().stream()
                 .forEach((Map.Entry entity) -> {
                     if (entity.getValue() != null && entity.getValue().toString().trim().length() > 0 ) {
-                        context.append(entity.getKey()).append("=").append(entity.getValue()).append("&");
+                        context.append("&").append(entity.getKey()).append("=").append(entity.getValue());
                     }
                 });
-
         String signSrc = context.toString();
+        if (signSrc.startsWith("&")) {
+            signSrc = signSrc.replaceFirst("&", "");
+        }
         String sign = md5(signSrc + secret).toUpperCase();
         return sign;
     }
