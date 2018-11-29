@@ -2,7 +2,6 @@ package sign;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.alibaba.fastjson.TypeReference;
 import com.alibaba.fastjson.parser.Feature;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.apache.commons.lang3.StringUtils;
@@ -11,9 +10,6 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.TreeMap;
-import java.util.stream.Collectors;
 
 public class FindSignTest {
     public static String signWithMD5(String jsonString,String secret){
