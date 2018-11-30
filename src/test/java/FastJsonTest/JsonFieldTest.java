@@ -12,7 +12,7 @@ public class JsonFieldTest {
 
     @Test
     public void test1(){
-        String userJson = JSON.toJSONString(bird);
+        String userJson = JSON.toJSONString(bird,true);
         System.out.print(userJson);
     }
 }
