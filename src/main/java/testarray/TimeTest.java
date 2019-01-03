@@ -17,6 +17,7 @@ public class TimeTest {
         System.out.println(before_date);
         // 目前时间加一个月
         nowdate.add(Calendar.MONTH, 2);
+        nowdate.add(Calendar.MONTH, 2);
 
         String after_date = sdf.format(nowdate.getTime());
         System.out.println(after_date);
