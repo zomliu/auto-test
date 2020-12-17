@@ -14,8 +14,10 @@
     window.$docsify = {
       name: '目录',
       loadSidebar: true,
-      //subMaxLevel: 1,
       auto2top: true,
+      requestHeaders: {
+        'cache-control': 'max-age=60',
+      },
       
     }
   </script>
