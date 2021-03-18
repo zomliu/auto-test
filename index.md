@@ -8,4 +8,4 @@ OmniSDK Android
     - [接入手册](docs/omni-sdk/android_integration.md): 用户接入手册
     - [Demo 源码](https://github.com/kingsoftgames/omnisdk-android-demo) : OmniSDK API Demo.
     - [Change log](docs/omni-sdk/CHANGELOG.md) : 版本升级说明.
-- [服务端接入](docs/server_integration.md) : 服务端接入
+- [服务端接入](docs/server/server_integration.md) : 服务端接入
