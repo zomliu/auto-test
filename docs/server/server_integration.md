@@ -1,4 +1,4 @@
-[返回首页](/auto-test)
+[<<返回首页](/auto-test)
 
 # 服务端接入
 
@@ -311,4 +311,4 @@ public class JavaSignDemo {
 }
 ```
 
-### [返回首页](/auto-test)
+[<<返回首页](/auto-test)

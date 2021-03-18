@@ -1,3 +1,5 @@
+[<<返回首页](/auto-test)
+
 OmniSDK Android 接入指南
 ====
 
