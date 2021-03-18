@@ -309,4 +309,4 @@ public class JavaSignDemo {
 }
 ```
 
-### [返回首页](/)
+### [返回首页](/auto-test)
